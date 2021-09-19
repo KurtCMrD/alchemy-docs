@@ -104,6 +104,8 @@ Finally, run the `verify` task, passing the address of the contract, and the net
 ```text
 npx hardhat verify --network ropsten DEPLOYED_CONTRACT_ADDRESS 'Hello World!'
 ```
+`DEPLOYED_CONTRACT_ADDRESS` is your contract address on the Ropsten network.
+
 
 If all goes well, you should see the following message in your terminal:
 
